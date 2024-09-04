@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Testngbatchexecutionf">
+    <classes>
+      <class name="seleniumPractice.Response_code_onListOperation"/>
+      <class name="data_DataProvider.TestCasesForDataProvider"/>
+      <class name="seleniumPractice.SoftAssert_learning"/>
+      <class name="seleniumPractice.LearningAssertions"/>
+      <class name="seleniumPractice.PartFiveOfMultipleExtraction"/>
+      <class name="seleniumPractice.Handle_Box_elementLinks"/>
+      <class name="seleniumPractice.ITestContextLearning"/>
+      <class name="seleniumPractice.HardAssert_vs_Softassert"/>
+      <class name="seleniumPractice.DataProviderConcepts"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

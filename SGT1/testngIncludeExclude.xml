@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+		
+      <class name="seleniumPractice.SoftAssert_learning">
+		  <methods>
+			  <include name="softTestCaseValidation"></include> 
+		  </methods> 
+	  </class> 
+	  
+      <class name="seleniumPractice.LearningAssertions">
+		  <methods>
+			  <include name="PramaeterA"></include>
+			  
+		  </methods>
+		  </class>
+     
+      <class name="seleniumPractice.ITestContextLearning">
+		  <methods>
+			  <include name="ITestContextLearning"></include>
+		  </methods>
+		  </class>
+     
+      <class name="seleniumPractice.HardAssert_vs_Softassert">
+		  <methods>
+			  <include name="HardAssertLogic"></include>
+			  <include name="SoftAssertLogic"></include>
+		  </methods>
+		  </class>
+     
+      <class name="seleniumPractice.DataProviderConcepts">
+		  <methods>
+			  <include name="DataProviderConcepts"></include>
+		  </methods>
+		  </class>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

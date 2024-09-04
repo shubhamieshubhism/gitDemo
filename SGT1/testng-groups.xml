@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+	  <groups>
+		  
+		 <!-- <define name="Overnight">
+			  <include name="regression"></include>
+			  <include name="sanity"></include>
+			  
+			  
+			  
+		  </define> -->
+		  <run>
+			  <include name="CompleteClassLevelTest"></include>
+			  <exclude name="regression"></exclude>
+			  
+			  
+			  <!--include name="windows.*"></include>
+			  <include name="linux.*"></include>
+			  
+			  
+			  <include name="Overnight"></include>
+			  <include name="smoke"></include>
+			  <include name="sanity"></include>
+			  <exclude name="regression"></exclude>-->
+			  
+		  </run>
+	  </groups>
+    <classes>
+      <class name="seleniumPractice.Groups_concepts"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

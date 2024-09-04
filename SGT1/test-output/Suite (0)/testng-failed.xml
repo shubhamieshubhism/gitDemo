@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (0)]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="seleniumPractice.Response_code_onListOperation">
+        <methods>
+          <include name="response_on_list"/>
+        </methods>
+      </class> <!-- seleniumPractice.Response_code_onListOperation -->
+      <class name="seleniumPractice.SoftAssert_learning">
+        <methods>
+          <include name="softTestCaseValidation"/>
+        </methods>
+      </class> <!-- seleniumPractice.SoftAssert_learning -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->
